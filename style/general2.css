@@ -1,0 +1,223 @@
+.datosinstructores{
+	
+	min-height: 40px;
+	min-width: 150px;
+	max-width: 180px;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-style: italic;
+	font-family: impact;
+ 	font-weight: normal;
+ 	font-size: larger;
+ 	color: orange;
+ 	margin-left: 20px;
+ 	padding-top: 23px;
+ 	padding-left: 60px;
+ 	background-color: orange;
+ 	box-shadow: inset 1px 1px 30px 5px black;
+ 	overflow: auto;
+ 	white-space: pre-wrap; 
+
+}
+.datosinstructor{
+	
+	height: 400px;
+	min-width: 250px;
+	border: 1px solid black;
+	box-shadow:  1px 1px 30px 5px black; 
+	border-radius: 15px;
+	margin-left: 100px;
+	background-color: #23005f;
+	float:left;
+	margin-bottom: 25px;
+	padding-right: 20PX;
+	padding-bottom: 20px;
+}
+.titulo{
+	height:50px;
+	width: 50px;
+	background: url(img/icocolossus.png);
+	background-size: 45px 45px;
+	background-repeat:no-repeat;
+	margin-left: 95px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#nombreinstructor{
+	background: url(img/name.png);
+	background-size: 40px 40px;
+	background-repeat:no-repeat;
+	background-position: 10px 10px;
+	background-color: rgba(225,150,10,0.5);
+ 	box-shadow: inset 1px 1px 30px 5px black;
+
+}
+#telefonoinstructor{
+	background: url(img/tel.png);
+	background-size: 40px 40px;
+	background-repeat:no-repeat;
+	background-position: 10px 10px;
+	background-color: rgba(225,150,10,0.5);
+ 	box-shadow: inset 1px 1px 30px 5px black;
+
+
+}
+#userinstructor{
+	background: url(img/user.png);
+	background-size: 40px 40px;
+	background-repeat:no-repeat;
+	background-position: 10px 10px;
+	background-color: rgba(225,150,10,0.5);
+ 	box-shadow: inset 1px 1px 30px 5px black;
+
+}
+#cuponinstructor{
+	background: url(img/cupon.png);
+	background-size: 40px 40px;
+	background-repeat:no-repeat;
+	background-position: 10px 10px;
+	background-color: rgba(225,150,10,0.5);
+ 	box-shadow: inset 1px 1px 30px 5px black;
+}
+.btnRegistrar{
+	padding-top: 0px;
+	height: 44px;
+	min-width: 44px;
+	border-radius: 25px;
+
+	border:4px solid orange;
+	float: right;
+	margin-left: 20px;
+	background: url('img/adduser.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+
+	background-color: #130153;
+
+	box-shadow: 3px 3px 5px 3px black;
+
+}
+
+.btnRegistrar:hover{
+	cursor: pointer;
+
+}
+.infobtn{
+	display: none;
+	
+	margin-left: 40px;
+	padding-right: 15px;
+	color: orange;
+	font-family: impact;
+ 	font-weight: normal;
+ 	font-style: italic;
+ 	font-size: medium;
+ 	
+ 	vertical-align: middle;
+}
+.opstarjeta{
+	min-height: 50px;
+	width: 85%;
+	
+	border-radius: 15px;
+ 	margin-left: 20px;
+ 	padding-top: 10px;
+ 	padding-left: 10px;
+ 	background-color: transparent;
+ 	padding-bottom: 10px;
+}
+.opt{
+	
+	background-color:white;
+	height: 45px;
+	width: 45px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px 3px black;
+}
+#optupdate{
+	background:url('img/update.png');
+	background-size: 100% 100%;
+}
+#optcash{
+	background:url('img/cash.png');
+	background-size: 100% 100%;
+}
+#optmore{
+	background:url('img/more.png');
+	background-size: 100% 100%;
+}
+#optupdate:hover ,#optcash:hover,#optmore:hover{
+	cursor: pointer;
+	
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: inset 3px 3px 5px 3px black;
+}
+.opt .tooltiptext{
+	visibility: hidden;
+	width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px ;
+    position: relative;
+    z-index: 99;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    margin-bottom: -50px;
+}
+
+.opt:hover .tooltiptext{
+	visibility: visible;
+	opacity: 1;
+}
+.opt .tooltiptext::after {
+    content: "";
+    position: relative;
+    top: 100%;
+    left: 1%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.divmodal{
+	display: none;
+	height: 80%;
+	width: 80%;
+	position: absolute;
+	z-index: 100;
+	background-color: white;
+	top: 80%;
+	left: 10%;
+	border-color:solid 2px black;
+	border-radius: 6px;
+}
+.btncerrar{
+	height:           30px;
+	width:            30px;
+	background:       url('img/close.png');
+	background-size:  100% 100%;
+	border-radius:    6px;
+	background-repeat:no-repeat;
+	float:            right;
+	cursor:           pointer;
+	
+}
+
+.updateconteiner{
+	margin-top: 5%;
+
+
+}

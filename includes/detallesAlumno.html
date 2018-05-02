@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Detalle Alumno</title>
+	<link rel="stylesheet" type="text/css" href="style/detalleAlumno.css">
+	<script type="text/javascript" src="scripts/detalleAlumno.js"></script>
+</head>
+<body>
+	<div class="contenidoEnModal" id="contenidoDetalleAlumno">
+		<div class="tituloEnModal">Detalles del Alumno</div>
+		<div id="colIzq">
+			<div id="FotoDetalleAlumno"></div>
+			<div id="cuadroOpciones">
+				<div class="opEnDetalle" id="passRestart">
+					<span  class="textOpDetalle">Restablecer Contraseña </span>
+					<div class="opContOculto">
+						<div class="miniform">
+							<input type="password" id='newpass1' class="minicontrol">
+							<span class="minilabel">Nueva Contraseña</span>
+							<input type="password" id='newpass2' class="minicontrol">
+							<span class="minilabel">Repetir Contraseña</span>
+							<button class="minibtn" id="submitNewPass"> OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="colDer">
+			<div id="infoPersonalAlumno">
+				<div class="infoDetalle">
+					<input type="hidden" id="idAlumno">
+					<span class='infoParNombre'> Nombre</span><span class='infoParValor' id="spanNombre"> Alumno1</span>
+					<input type="text" class="iedit" id="nombre" >
+					<span class="editinfo" id="enombre"></span> <span class="saveinfo" id="snombre"></span>
+				</div>
+				<div class="infoDetalle">
+					<span class='infoParNombre'> Telefono</span><span class='infoParValor' id="spanTelefono"> 3764112233</span>
+					<input type="text" class="iedit" id="telefono" >
+					 <span class="editinfo" id="etelefono"></span> <span class="saveinfo" id="stelefono"></span>
+				</div>
+				<div class="infoDetalle">
+					<span class='infoParNombre'> Nombre de Usuario</span><span class='infoParValor' id="spanUser"> User1</span>
+					<input type="text" class="iedit" id="user" >
+					 <span class="editinfo" id="euser"></span> <span class="saveinfo" id="suser"></span>
+				</div>	
+				<div class="infoDetalle">
+					<span class='infoParNombre'> Vencimiento de la cuota</span><span class='infoParValor' id="spanVencimiento"> 01/01/2018</span>
+
+					<div class="opEnDetalleRight" id="cuotaCobrar">
+						<span  class="textOpDetalle">Renovar Cuota </span>
+					</div>
+				</div>	
+				<div class="infoDetalle">
+					<span class='infoParNombre'> Ultima clase registrada</span><span class='infoParValor' id="spanLastSesion"> 10/03/2017</span>
+				</div>	
+				<div class="infoDetalle">
+					<span class='infoParNombre'> Cantidad de clases registradas</span><span class='infoParValor'> 01</span>
+				</div>	
+			</div>
+		
+		
+		
+				
+		</div>
+		<div id="opcionesDetalleAlumno">
+			<span class="opcionDetalleAlum">Mas informacion</span>
+		</div>
+	</div>
+</body>
+</html>

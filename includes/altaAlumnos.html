@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="style/jquery-ui.theme.min.css">
+	<link rel="stylesheet" type="text/css" href="style/jquery-ui.structure.min.css">
+	<script type="text/javascript" src="scripts/jquery.js"></script>	
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="scripts/altaAlumnos.js"></script>
+	</head>
+<body>
+<div class="contieneForm">
+	<div class="formulario" id="altaAlumno">
+		<div class="titleform">Registrar Alumno</div>
+		<div class="msgform" id="msgaltaalum"></div>
+
+		<div class="contieneImgPicker">
+			<input type="file" id="findFile" >
+			<div class="imgPicker" id="imgAlumno"></div>
+			<!--<div class="labelImg"><span>Foto del Alumno</span></div>-->
+		</div>
+		<input type="hidden" id="idInstructor">
+		<div class="contieneControl" >
+			<div class="icoControl" id="icoNombre"></div>
+			<input type="text" id="nombrealumno" class="control" placeholder="Nombre del Alumno">
+			<div class="infoControl" id="infoNombre"></div>
+		</div>
+
+		<div class="contieneControl" >
+			<div class="icoControl" id="icoTelefono"></div>
+			<input type="text" id="telefonoalumno" class="control" placeholder="Telefono">
+			<div class="infoControl"></div>
+		</div>
+
+		<div class="contieneControl" >
+			<div class="icoControl" id="icoUser"></div>
+			<input type="text" id="usernamealumno" class="control" placeholder="Nombre de usuario">
+			<div class="infoControl" id="infoUser"></div>
+		</div>
+
+		<div class="contieneControl" >
+			<div class="icoControl" id="icoKey1"></div>
+			<input type="password" id="passalumno1" class="control" placeholder="clave">
+			<div class="infoControl" id="infoPass1"></div>
+		</div>
+		<div class="contieneControl" >
+			<div class="icoControl" id="icoKey2"></div>
+			<input type="password" id="passalumno2" class="control" placeholder="repetir clave">
+			<div class="infoControl" id="infoPass2"></div>
+		</div>
+
+	
+		<div class="contieneBtn">
+			<div class="btnEnviar" id="registrarAlumno">Guardar</div>
+		</div>
+	</div>
+</div>
+<div id="dialogos">
+	
+</div>
+
+<!--<div id="dialogLogin" title="Autenticarse" class="dialogUI">
+Instructor	<input type="text" id="usernameI" placeholder="Nombre usuario" class="controlDialogLogin"><br>
+Password	<input type="password" id="passI" placeholder="Password"  class="controlDialogLogin">
+</div>
+
+-->
+
+
+
+</body>
+</html>

@@ -1,0 +1,581 @@
+body{
+	background-color: #23005f;
+
+/*background: url(img/textura.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+*/	
+}
+
+.banner{
+	margin: auto;
+	width: 100%;
+	height: 160px;
+	background: url(img/banner.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: -3px 3px 30px 1px #a944f8; 
+
+	border-radius: 30px;
+
+}
+#menu{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	height: 40px;
+
+	margin-top: 15px;
+/*border: 1px solid yellow;*/
+}
+ .opmenu{
+ 	margin-left: 10px;
+ 	width: 150px;
+ 	height: 35px;
+
+ 	float: left;
+
+ 	border: 3px solid orange;
+
+ 	background: url(img/icocolossus.png);
+ 	background-color: #130153;
+ 	background-size: 35px 35px;
+ 	background-repeat: no-repeat;
+ 	background-position: 5px 5px; 
+ 	padding-left: 40px;
+ 	padding-top: 10px;
+
+ 	font-family: impact;
+ 	font-weight: normal;
+ 	font-size: larger;
+ 	font-style: italic;
+ 	color: orange;
+
+
+ 	border-radius: 15px;
+ 	box-shadow: inset 1px 1px 30px 5px black; 
+ 	transition: all 1s ease;
+ }
+ .opmenu:hover{
+ 	cursor: pointer;
+ 	background-color: orange;
+ 	color: white;
+ 	border:2px solid white;
+ 	box-shadow: -3px 3px 30px 1px #a944f8; 
+
+
+ }
+
+ .seleccionada{
+ 	background-color: orange;
+ 	color: white;
+ 	border:2px solid white;
+ 	box-shadow: -3px 3px 30px 1px #a944f8;
+ }
+
+ #contenedor{
+ 	/*border:1px solid yellow;*/
+
+ 	width: 95%;
+ 	min-height: 650px;
+
+ 	margin-top: 25px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 30px;
+ 	background-color: #46188b;
+ 	box-shadow: -3px 3px 30px 1px #a944f8; 
+ 	border-radius: 40px;
+ 	padding-bottom: 25px;
+ 	
+ 	
+	/*	background: url(img/textura.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	*/
+ }
+ .contieneForm, .contieneLista{
+ 	
+ 	width: 85%;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	background-color: #46188b;
+ 	box-shadow: -3px 3px 30px 1px #a944f8; 
+ 	border-radius: 30px;
+ 	overflow: auto;
+
+
+ }
+
+
+ .formulario{
+ 	padding-top: 15px;
+ 	box-shadow: inset 1px 1px 300px 150px black; 
+ 	border-radius: 35px;
+
+
+ }
+
+
+ .titleform{
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-top: 10px;
+ 	margin-bottom: 20px;
+ 	width: 50%;
+ 	height: 40px;
+ 	padding-left: 265px;
+ 	font-size: 33px;
+	font-family:  Impact	;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: capitalize;
+	color: orange;
+
+
+	 text-shadow: 2px 2px #ff0000;
+ }
+
+ .contieneImgPicker{
+ 	
+ 	min-height: 150px;
+ 	width: 50%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 20px; 
+
+ }
+ .imgPicker{
+ 	height: 120px;
+ 	width: 120px;
+ 	/*margin-left:  auto;
+ 	margin-right:  auto;
+ 	*/margin-left: 160px;
+
+ 	background: url(img/Plus__Orange.png)  no-repeat ,
+ 	url(img/Picture.png)   no-repeat, #a9a9a9;
+ 	background-size: 30% 30%, 80% 80%; 
+ 	background-position: 70px 60px, center center;
+ 	box-shadow: 3px 3px 5px 3px black;
+ 	transition: all 0.3s ease;
+ 	border-radius: 60px;
+
+
+ }
+.imgPicker:hover{
+	cursor: pointer;
+	box-shadow: inset 3px 3px 5px 3px black;
+	background: url(img/Plus__Orange.png)  no-repeat ,
+ 	url(img/Picture.png)   no-repeat, #a9a9a9;
+ 	background-size: 20% 20%, 70% 70%; 
+ 	background-position: 70px 60px, center center;
+ 	border-radius: 60px;
+}
+#findFile{
+	color: transparent;
+	padding-left: 25px;
+	padding-top: 2px;
+	display: none;
+}
+.fileIn{
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	box-shadow: 3px 3px 5px 3px black;
+}
+#cambiarImg{
+	width: 110px;
+	height: 35px;
+	background-color: rgba(0,0,0,0.6);
+	background-image: url(img/camera.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+	color: rgba(255,255,255, 0.8);
+	position: absolute;
+	margin-top: -35px;
+	padding-left: 25px;
+
+}
+.labelImg{
+	float: right;
+	margin-right: 100px;
+	margin-top: -70px;
+}
+.labelImg span{
+	font-size: 20px;
+	font-family:  Impact;
+	font-weight: normal;
+	font-style: normal;
+	color: orange;
+}
+ .contieneControl{
+ 	min-height: 40px;
+ 	width: 50%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 15px;
+
+ 	
+ 	/*border: 1px solid black;*/
+ }
+
+ .icoControl{
+ 	border: 1px solid red;
+ 	height: 40px;
+ 	width: 40px;
+ 	float: left;
+ 	margin-left: 80px;
+ 	margin-right: 10px;
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ }
+ .control{
+ 	margin-top: 5px;
+ 	padding-top: 5px;
+ 	float: left;
+ 	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 4px solid orange;
+	background-color: inherit;
+	font-size: 20px;
+	font-family:  "Lucida Console", Monaco, monospace	;
+	font-weight: bold;
+	font-style: italic;
+	/*text-transform: capitalize;*/
+	color: white;
+	 }
+ .control:focus{
+ 	outline: 0px solid orange;
+	box-shadow: 0 0 1px 1px orange ;
+ }
+ #nombrealumno{
+ 	text-transform: capitalize;
+ }
+ #usernamealumno{
+ 	text-transform: lowercase;
+ }
+
+
+
+ .infoControl{
+ 	border: 0px solid red;
+ 	height: 35px;
+ 	width: 35px;
+ 	float: left;
+ 	margin-left: 10px;
+ }
+ .contieneBtn{
+ 	
+ 	margin-left: 410px;
+ 	padding-bottom: 50px;
+ 	margin-top: 20px;
+ 	height: 40px;
+ }
+
+ .btnEnviar{
+ 	width: 130px;
+ 	height: 35px;
+
+ 
+
+ 	border: 3px solid orange;
+
+ 	background: url(img/save.png);
+ 	background-color: #130153;
+ 	background-size: 35px 35px;
+ 	background-repeat: no-repeat;
+ 	background-position: 5px 5px; 
+ 	padding-left: 50px;
+ 	padding-top: 10px;
+ 	
+
+ 	font-family: impact;
+ 	font-weight: normal;
+ 	font-size: larger;
+ 	font-style: italic;
+ 	color: orange;
+
+
+ 	border-radius: 15px;
+
+ 	box-shadow: 5px 5px 3px 2px rgba(255,255,255, 0.4); 
+
+ }
+ 
+ .btnEnviar:hover{
+
+ 	cursor: pointer;
+ 	background-color: orange;
+ 	color: rgba(255,255,255, 0.8);
+ 	box-shadow: inset 1px 1px 30px 5px rgba(255,255,255, 0.8); 
+
+ }
+
+ #icoNombre{
+ 	background: url(img/name.png);
+
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ 	border: 0px	;
+ }
+ #icoTelefono{
+ 	background: url(img/tel.png);
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ 	border: 0px	;
+ }
+ #icoUser{
+ 	background: url(img/user.png);
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ 	border: 0px	;
+ }
+ #icoKey1, #icoKey2{
+ 	background: url(img/key.png);
+
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ 	border: 0px	;
+ }
+
+.msgform{
+
+	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-top: 10px;
+ 	margin-bottom: 20px;
+ 	width: 50%;
+ 	height: 40px;
+ 	padding-left: 180px;
+ 	
+}
+.msgform span{
+	 margin-right: auto;
+	 margin-left: auto;
+	font-size: 15px;
+	font-family:  Impact	;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: capitalize;
+	color: orange;
+
+
+}
+
+
+#filtroAlumnos{
+	margin-top: 20px;
+	margin-left: 10px;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	float: left;
+ 	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 3px solid transparent;
+	background-color: inherit;
+	font-size: 15px;
+	width: 515px;
+	font-family:  "Lucida Console", Monaco, monospace	;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	text-transform: capitalize;
+
+	background: url(img/search.png) no-repeat rgba(255, 255, 255, 0) 0px 0px;
+	background-size: 25px 25px;
+	padding-left: 27px;
+}
+#filtroAlumnos:focus{
+		border-bottom: 4px solid white;
+
+		outline:none;
+
+}
+.espere{
+	float: right;
+	height: 30px;
+	width: 30px;
+	background:url('img/wait.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+.noMatches{
+	float: right;
+	height: 30px;
+	width: 30px;
+	background:url('img/error.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ .contieneLista{
+ 	padding-top: 10px;
+ 	padding-bottom: 20px;
+ }
+.lista table{
+ 	width: 99%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 25px;
+
+ }
+
+ .lista{
+	padding-top: 35px;
+ 	border-radius: 35px;
+}
+
+ .lista table thead th{
+ 	background-color: #130153;
+ 	box-shadow: inset 1px 1px 30px 5px black; 
+ 	height: 40px;
+ 	border: 2px solid orange;
+ 	font-size: 15px;
+	font-family:  Impact	;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: capitalize;
+	color: orange;
+ }
+ .lista table tbody tr{
+ 	height: 35px;
+ 	
+ }
+ 
+ /*.lista table tbody td.resultado:hover{
+
+ 	cursor: pointer;
+ 	background-color: orange;
+ 	
+ }**/
+  .lista table tbody tr td {
+  	text-align: center;
+ 	background-color: #130153;
+	font-family:  verdana	;
+	font-weight: bold;
+	font-style: italic;
+ 	color: white;
+ 	 	
+ }
+ .lista table tbody tr td.resultado,  .lista table tbody tr td.opresultado {
+ 	background-color: #130153;
+ 	box-shadow: inset 1px 1px 30px 5px black; 
+ 	border-bottom: 2px dotted orange;
+ 	font-family:  verdana	;
+	font-weight: lighter;
+	font-style: italic;
+ 	color: white;
+ 	text-align: center;
+ 	text-transform: capitalize;
+ }
+
+ .mostraropciones{
+ 	height: 75px;
+ 	background-color: yellow;
+ }
+ .opcionresultado{
+ 	border:1px solid white;
+ 	height: 35px;
+ 	width: 100px;
+ 	margin-right: 20px;
+ 	margin-left: 20px;
+ }
+
+ /*
+menu emergente
+ */
+ 
+
+
+
+ 
+.nav-menu {
+	border: 2px solid orange;
+	position:absolute;
+   	display:none;
+   	width: 150px;
+   	min-height: 100px;
+   	background-color:black;
+   	margin-left: -25px;
+   	margin-top:20px;
+   	border-radius: 15px;
+   	box-shadow: 3px 3px 5px 3px black;
+
+  
+
+}
+ .op-navmenu{
+ 	background-color:#130153;
+ 	border-bottom: 1px solid orange;
+ 	padding: 6px;
+ 	border-radius: 15px;
+ 	box-shadow: inset 1px 1px 30px 5px black; 
+ }
+ .op-navmenu:hover{
+ 	cursor:pointer;
+ 	background-color: orange;
+ 	color: white;
+ }
+
+.infobtn{
+	display: none;
+	
+	margin-left: 40px;
+	padding-right: 15px;
+	color: orange;
+	font-family: impact;
+ 	font-weight: normal;
+ 	font-style: italic;
+ 	/*-webkit-transition: display 8ms linear 1s;*/
+}
+
+.btnRegistrar{
+	padding-top: 10px;
+	height: 34px;
+	min-width: 44px;
+	border-radius: 25px;
+
+	border:4px solid orange;
+	float: left;
+	margin-left: 20px;
+	background: url('img/adduser.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+
+	background-color: #130153;
+
+	box-shadow: 3px 3px 5px 3px black;
+	transition: all 1s ease;
+
+}
+
+.btnRegistrar:hover{
+	cursor: pointer;
+
+}
+
+  /*fin menu emergente*/
+
+  .optionInst{
+  	min-height: 40px;
+  	width: 99%;
+  	border: 1px solid orange;
+  	background-color: #130153;
+  	text-align: center;
+  	padding-top: 10px;
+  }
+  .optionInst:hover{
+  	cursor: pointer;
+  	background-color: white;
+  	color: orange;
+  }
+  .optionInst span{
+  	vertical-align: middle;
+  	text-align: center;
+  	color: orange;
+  	font-weight: normal;
+  	font-family: Impact;
+  }
